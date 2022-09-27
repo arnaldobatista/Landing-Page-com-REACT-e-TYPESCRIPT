@@ -9,10 +9,17 @@ const globalStyle = createGlobalStyle`
     html, body, #root {
         height: 100%;
     }
+    body {
+        background-color: #F8FDFF;
+        font-family: 'Poppins', sans-serif;
+    }
+
     button {
-        backgroung-color: none;
+        background-color: transparent;
+        font-family: 'Poppins', sans-serif;
         border: none;
         outline: none;
+        cursor: pointer;
     }
     a {
         text-decoration: none;

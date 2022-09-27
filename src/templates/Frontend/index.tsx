@@ -1,4 +1,5 @@
 import * as S from './styles'
+import Header from '../../organisms/Header'
 type FrontendProps = { // criando o tipo do que a constant Frontend vai receber na functon.
     children: React.ReactNode
 }
@@ -6,7 +7,7 @@ type FrontendProps = { // criando o tipo do que a constant Frontend vai receber 
 const Frontend = ({children}: FrontendProps) => {
     return (
         <S.Container>
-            teste fron {children}
+            <Header></Header>
         </S.Container>
     )
 }
