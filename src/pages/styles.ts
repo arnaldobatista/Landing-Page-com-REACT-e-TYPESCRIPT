@@ -18,3 +18,7 @@ export const Container = styled.div`
         margin-top: 30px;
     }
 `
+export const ColumnImage = styled.div`
+    text-align: right;
+    position: relative;
+`
